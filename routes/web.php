@@ -50,6 +50,14 @@ Route::get('/about' , function() {
 
 
 
+// Contact Routes
+Route::get('/contact' , function() {
+    return view('contact');
+})->name('contact');
+// ***************************************
+
+
+
 // Instructors Routes
 // ***************************************
 Route::get('/all-instructors' , [InstructorController::class , 'showAllInstructors'])->name('all-instructors');
