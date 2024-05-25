@@ -16,7 +16,7 @@
             </div>
             <div class="ms-3">
               <h5 class="text-primary">Office</h5>
-              <p class="mb-0">123 Street, New York, USA</p>
+              <p class="mb-0">Tanta, Garbia, Egypt</p>
             </div>
           </div>
           <div class="d-flex align-items-center mb-3">
