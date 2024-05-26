@@ -6,7 +6,9 @@
     <div class="team-item bg-light">
         <div class="overflow-hidden">
             {{-- asset('images/team-1.jpg')  --}}
-            <img class="img-fluid" src="{{ asset('images/team-4.jpg') }}" alt="">
+            <a href="/">
+                <img class="img-fluid" src="{{ asset('images/team-4.jpg') }}" alt="">
+            </a>
         </div>
         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
             <div class="bg-light d-flex justify-content-center pt-2 px-1">
