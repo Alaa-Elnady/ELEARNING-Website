@@ -60,5 +60,9 @@ Route::get('/contact' , function() {
 
 // Instructors Routes
 // ***************************************
+// Show All Instructors
 Route::get('/all-instructors' , [InstructorController::class , 'showAllInstructors'])->name('all-instructors');
+
+// Show single instructor details
+Route::get('/instructors/{instructor}/showInstructorDetails' , [InstructorController::class , 'showInstructorDetails']);
 

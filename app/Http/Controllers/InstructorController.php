@@ -13,4 +13,9 @@ class InstructorController extends Controller
             'instructors' => Instructor::all(),
         ]);
     }
+
+    // Show Single instructor details
+    public function showInstructorDetails(Instructor $instructor) {
+        return view('instructors.show-instructor-details' , ['instructor' => $instructor]);
+    }
 }

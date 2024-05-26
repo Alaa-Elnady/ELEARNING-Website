@@ -6,7 +6,7 @@
     <div class="team-item bg-light">
         <div class="overflow-hidden">
             {{-- asset('images/team-1.jpg')  --}}
-            <a href="/">
+            <a href="/instructors/{{$instructor->id}}/showInstructorDetails">
                 <img class="img-fluid" src="{{ asset('images/team-4.jpg') }}" alt="">
             </a>
         </div>
