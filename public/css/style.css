@@ -561,3 +561,42 @@
     height: 100%; 
     object-fit: cover; 
 } */
+
+
+/* ***************************************************************************** */
+/* 
+    MARK:Single Instructor
+*/
+.pageHeroStyle {
+    height:500px;
+    padding: 0px;
+    /* background-color:red ;  */
+}
+
+.instrucImgContainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.instrucSocialMediaContainer {
+    width: 10%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #ff0; */
+}
+
+.socialIconContainer {
+    width: 26%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    /* background-color: #00f; */
+}
