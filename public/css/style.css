@@ -601,18 +601,26 @@
     /* background-color: #00f; */
 }
 
-.instrucIntroContainer {
+.instructorInfoSection {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: #0f0; */
+}
+
+.instrucIntroContainer {
+    width: 80%;
     padding: 25px 20px;
     display: flex;
-    margin-top: 20px;
     flex-direction: column;
     align-items: center;
     /* background-color: #f0f; */
 }
 
 .instrucIntroStyle {
-    width: 60%;
+    width: 75%;
     padding: 10px;
     display: flex;
     font-size: 18px;
@@ -620,4 +628,28 @@
     text-align: center;
     justify-content: center;
     /* background-color: #ff0; */
+}
+
+.instrucDetailsContainer {
+    padding: 10px;
+    /* background-color: #0ff; */
+}
+
+.personalDetailsSection {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(162, 0, 255); */
+}
+
+.personalDetailsItem {
+    width:80%;
+    display:flex; 
+    margin-bottom:5px;
+    align-items:center;
+    flex-direction:row; 
+    justify-content: space-between; 
+    /* background-color: rgb(144, 165, 42);  */
 }
