@@ -600,3 +600,24 @@
     border: 1px solid white;
     /* background-color: #00f; */
 }
+
+.instrucIntroContainer {
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f0f; */
+}
+
+.instrucIntroStyle {
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* background-color: #ff0; */
+}

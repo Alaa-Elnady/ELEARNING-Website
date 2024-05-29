@@ -36,4 +36,10 @@
     </div>
   </div>
 
+  {{-- Instructor Intro --}}
+  <div class="instrucIntroContainer">
+    <h1>About Instructor</h1>
+    <div class="instrucIntroStyle">{{$instructor->introduction}}</div>
+  </div>
+
 </x-layout>
