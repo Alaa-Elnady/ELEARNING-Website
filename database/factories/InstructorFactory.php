@@ -19,6 +19,10 @@ class InstructorFactory extends Factory
         return [
             'name' => fake()->firstName($gender = 'male'|'female'),
             'job' => fake()->jobTitle(),
+            'jobStatus' => 'Instructor',
+            'phoneNumber' =>fake()->e164PhoneNumber(),
+            'email' => fake()->email(),
+            'address' => fake()->streetAddress(),
             'facebookUrl' => fake()->url(),
             'instagramUrl' => fake()->url(),
             'linkedinUrl' => fake()->url(),

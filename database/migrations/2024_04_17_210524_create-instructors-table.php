@@ -15,6 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('job');
+            $table->string('jobStatus');
+            $table->string('phoneNumber');
+            $table->string('email')->unique()->nullable(false);
+            $table->string('address');
             $table->string('facebookUrl');
             $table->string('instagramUrl');
             $table->string('linkedinUrl');
