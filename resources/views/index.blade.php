@@ -7,4 +7,8 @@
 
   {{-- About Section --}}
   <x-about-card/>
+
+  {{-- Testimonial Section --}}
+  @include('partials._testimonial')
+
 </x-layout>

@@ -44,6 +44,7 @@
       <div class="instrucIntroStyle">{{$instructor->introduction}}</div>
     </div>
 
+    {{-- Instructor Info --}}
     <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-row flex-wrap align-items-center justify-content-around px-5 py-3 ">
 
       {{-- Personal details --}}
