@@ -653,3 +653,25 @@
     justify-content: space-between; 
     /* background-color: rgb(144, 165, 42);  */
 }
+
+.instrucAchivementSection {
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(255, 0, 115); */
+}
+
+.instrucAchivementItem {
+    width: 75px;
+    height: 75px;
+    margin: 5px 10px;
+    /* padding: 0px; */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bcbabad8;
+}

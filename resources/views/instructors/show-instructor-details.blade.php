@@ -44,7 +44,7 @@
       <div class="instrucIntroStyle">{{$instructor->introduction}}</div>
     </div>
 
-    <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-row align-items-center justify-content-around px-5 py-3 ">
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-row flex-wrap align-items-center justify-content-around px-5 py-3 ">
 
       {{-- Personal details --}}
       <div class="col-lg-5 col-md-5 col-sm-12 instrucDetailsContainer">
@@ -81,6 +81,29 @@
       {{-- Achivements --}}
       <div class="col-lg-5 col-md-5 col-sm-12 instrucDetailsContainer">
         <h4>Achivements</h4>
+        <div class="instrucAchivementSection">
+
+          <div class="instrucAchivementItem">
+            <div style="font-weight: bold; font-size: 18px">CV</div>
+          </div>
+
+          <div class="instrucAchivementItem">
+            <div style="font-weight: bold; font-size: 18px">Projects</div>
+          </div>
+
+          <div class="instrucAchivementItem">
+            <div style="font-weight: bold; font-size: 18px">Skills</div>
+          </div>
+
+          <div class="instrucAchivementItem">
+            <div style="font-weight: bold; font-size: 18px">Docs.</div>
+          </div>
+
+          <div class="instrucAchivementItem">
+            <div style="font-weight: bold; font-size: 18px">Rates</div>
+          </div>
+
+        </div>
       </div>
 
     </div>
