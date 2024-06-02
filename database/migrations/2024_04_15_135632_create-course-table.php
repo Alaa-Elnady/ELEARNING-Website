@@ -21,7 +21,7 @@ return new class extends Migration
             $table->integer('chaptersNumber');
             $table->integer('videosNumber');
             $table->string('courseContent');
-            // $table->string('image')->nullable();
+            $table->string('image')->nullable();
             $table->integer('studentsNumber')->nullable();
             $table->float('price', 8, 2)->nullable();
             $table->timestamps();

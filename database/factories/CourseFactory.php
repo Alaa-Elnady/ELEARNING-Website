@@ -26,7 +26,7 @@ class CourseFactory extends Factory
             'chaptersNumber' => fake()->biasedNumberBetween($min = 5, $max = 20, $function = 'sqrt') ,
             'videosNumber' => fake()->biasedNumberBetween($min = 10, $max = 30, $function = 'sqrt') ,
             'courseContent' => 'Define PHP Variables - Operators - Arrays , Uses cookies and manages session data in PHP , Build a Login Form and Validate users data' ,
-            // 'image' => fake()->imageUrl($width = 640, $height = 480),
+            // 'image' => fake()->image('public/images', 640, 480, null, false),
             'studentsNumber' => fake()->numberBetween($min = 500, $max = 5000),
             'price' => fake()->randomFloat($nbMaxDecimals = 2, $min = 0, $max = 1000),
         ];
